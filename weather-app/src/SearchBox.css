@@ -1,0 +1,33 @@
+.searchButton {
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.searchButton:active {
+    background: rgb(1, 85, 1);
+}
+
+.searchInput {
+    height: 100%;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+
+.searchinput:focus {
+    outline: transparent;
+}
+
+.searchinput:active {
+    outline: transparent;
+}
+.searchContainer {
+    height: 40px;
+}

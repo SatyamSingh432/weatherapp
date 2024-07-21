@@ -1,0 +1,19 @@
+.appContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 30vh;
+    flex-direction: column;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.loading {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 50px;
+}
