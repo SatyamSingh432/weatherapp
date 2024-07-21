@@ -41,7 +41,7 @@ function App() {
                     searchCity={searchCity}
                 />
             </div>
-            {isLoading && <p className='loading'>Loading data…</p>}
+            {isLoading && <p className='loading'>Loading data...</p>}
             {cityData && !isLoading && (
                 <div className='weather-cards'>
                     <DisplayCard
