@@ -8,6 +8,7 @@ const SearchBox = ({ searchVal, setValue, searchCity }) => {
                 placeholder='Enter city name'
                 value={searchVal}
                 onChange={setValue}
+                type='text'
             />
             <button onClick={searchCity} className='searchButton'>
                 Search
