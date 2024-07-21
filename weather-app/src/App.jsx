@@ -41,9 +41,9 @@ function App() {
                     searchCity={searchCity}
                 />
             </div>
-            {isLoading && <div className='loading'>Loading data…</div>}
+            {isLoading && <p className='loading'>Loading data…</p>}
             {cityData && !isLoading && (
-                <div className='cardContainer'>
+                <div className='weather-cards'>
                     <DisplayCard
                         title='Temperature'
                         value={cityData?.current?.temp_c}

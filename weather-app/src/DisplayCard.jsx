@@ -3,7 +3,7 @@ import './DisplayCard.css';
 const DisplayCard = ({ title, value, unit }) => {
     console.log({ value });
     return (
-        <div className='card'>
+        <div className='weather-card'>
             <div className='heading'>{title}</div>
             <div className='value'>
                 {value}
